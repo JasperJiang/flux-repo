@@ -1,0 +1,1 @@
+{"jobID":"1a1ed5b4-f130-94ed-c171-658332d98d2f","spec":{"type":"policy","cause":{"Message":"","User":"玄影 \u003chuihao.jhh@alibaba-inc.com\u003e"},"spec":{"default:deployment/test1-deployment":{"add":{},"remove":{"automated":"true"}}}},"result":null}
