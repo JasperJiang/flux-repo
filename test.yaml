@@ -16,6 +16,6 @@ spec:
         app: test1
     spec:
       containers:
-      - image: jasperjiang/service-a:3
+      - image: jasperjiang/service-a:2
         imagePullPolicy: Always
         name: test1
