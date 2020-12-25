@@ -14,11 +14,11 @@ spec:
         app: test1
     spec:
       containers:
-      - image: jasperjiang/service-a:4
+      - image: jasperjiang/service-a:3
         imagePullPolicy: Always
         name: test1
         readinessProbe:
           exec:
             command:
-              - date
+            - date
           initialDelaySeconds: 60
