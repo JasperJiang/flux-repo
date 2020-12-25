@@ -17,3 +17,8 @@ spec:
       - image: jasperjiang/service-a:4
         imagePullPolicy: Always
         name: test1
+        readinessProbe:
+          exec:
+            command:
+              - date
+          initialDelaySeconds: 60
