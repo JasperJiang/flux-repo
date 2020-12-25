@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test2
+  annotations:
+    fluxcd.io/automated: 'true'
+spec:
+  selector:
+    matchLabels:
+      app: test2
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: test1
+    spec:
+      containers:
+      - image: jasperjiang/service-b:4
+        imagePullPolicy: Always
+        name: test2
