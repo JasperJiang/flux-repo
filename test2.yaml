@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: test1
+        app: test2
     spec:
       containers:
       - image: jasperjiang/service-b:4
